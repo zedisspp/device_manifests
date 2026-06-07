@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : POCO X3 (surya) -->
+<manifest>
+    <!-- fetching sources -->
+    <remote name="ax-devices" fetch="https://github.com/AxionAOSP-devices" revision="lineage-23.2" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
+    <remote name="pos-devices" fetch="https://github.com/PixelOS-Devices" revision="sixteen-qpr2" />
+    <remote name="pos-gitlab" fetch="https://gitlab.com/NoPrincessHere" revision="sixteen-qpr2" />
+
+    <!-- Device -->
+    <project remote="ax-devices" name="android_device_xiaomi_surya" path="device/xiaomi/surya" />
+
+    <!-- Kernel -->
+    <project remote="pos-devices" name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" />
+
+    <!-- Vendor -->
+    <project remote="pos-gitlab" name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" />
+
+    <!-- Camera -->
+    <project remote="pos-devices" name="android_device_xiaomi_miuicamera-surya" path="device/xiaomi/miuicamera-surya" />
+    <project remote="pos-gitlab" name="proprietary_vendor_xiaomi_miuicamera-surya" path="vendor/xiaomi/miuicamera-surya" />
+
+    <!-- Hardware -->
+    <project remote="lineage" name="android_hardware_xiaomi" path="hardware/xiaomi" />
+</manifest>
