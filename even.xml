@@ -18,7 +18,7 @@
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-23.2" />
 
     <!-- IMS -->
-    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="techyminati" revision="axion" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="techyminati" revision="android-16-qpr2" />
 
     <!-- Proprietary vendor -->
     <project path="vendor/realme/even" name="vendor_realme_even_rui4" remote="badmaneers"
