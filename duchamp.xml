@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="gh" fetch="https://github.com/mt6897-devs" />
+    <remote name="sai" fetch="https://github.com/Saikrishna1504" />
+    <remote name="gtea" fetch="https://gitea.com/Saikrishna1504" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="sai" revision="axion" />
+    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="gh" />
+
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="gh" />
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="gh" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="gh" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/duchamp" name="vendor_xiaomi_duchamp" remote="gtea" revision="vic" />
+
+</manifest>
